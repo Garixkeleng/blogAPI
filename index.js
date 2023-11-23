@@ -57,7 +57,7 @@ app.get('/:id', (req,res)=>{
 
 //CHALLENGE 3: POST a new post
 
-app.post('/api/posts', (req,res)=>{
+app.post('/posts', (req,res)=>{
   // const id = parseInt(req.params.id);
   const newJoke = {
     id: posts.length+1,
@@ -73,6 +73,9 @@ app.post('/api/posts', (req,res)=>{
 
 
 //CHALLENGE 4: PATCH a post when you just want to update one parameter
+
+
+
 
 //CHALLENGE 5: DELETE a specific post by providing the post id.
 
